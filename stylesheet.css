@@ -1,0 +1,17 @@
+
+.navbar.custom-bg {
+    background-color: #009F4E !important;
+}
+
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 20px;
+    padding: 10px 20px;
+    font-family: chakra petch;
+}
+
+.navbar-text {
+    text-align: center;
+    color: #25BDC3 !important;
+    font-family: chakra petch;
+}
