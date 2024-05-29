@@ -7,18 +7,17 @@
     background-color: #009F4E !important;
 }
 
-
-.navbar-nav .nav-item .nav-link {
-    font-size: 20px;
+.btnnav {
+    background-color: #333;
+    color: white;
+    border: none;
     padding: 10px 20px;
-    font-family: chakra petch;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
-.navbar-text {
-    text-align: center;
-    color: #25BDC3 !important;
+.custom-font {
     font-family: chakra petch;
-    font-size: 35px;
 }
 
 /* Billede på forsiden */
@@ -44,9 +43,28 @@
 
 /* Footer */
 
-.custom-footer {
-    background-color: #009F4E !important;
-    color: #000000 !important;
-    font-family: chakra petch;
-    font-size: 20px;
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+.footer-logo {
+    float: left;
+    margin-right: 20px;
+}
+.footer-categories {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-category {
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+    .footer-categories {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }

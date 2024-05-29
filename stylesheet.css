@@ -1,17 +1,91 @@
 
-
-.navbar.custom-bg {
-    background-color: #009F4E !important;
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 
-.text-green-tech {
-    color: #25BDC3 !important;
-    font-size: 40px;
-    margin-left: 10px;
+
+/* Navbar */
+
+.navbar {
+    background-color: #009F4E;
+    overflow: hidden;
 }
 
-.custom-font {
+.navbar-logo {
+    float: left;
+    padding: 10px 10px;
+}
+
+.navbar-logo img {
+    height: 100%;
+    width: auto;
+}
+
+
+.navbar-text {
+    text-align: center;
+    margin-bottom: 10px;
     font-family: chakra petch;
+    margin: 0 auto;
+}
+
+.navbar-text p {
+    margin: 0;
+    font-size: 46px;
+}
+
+.navbar-links {
+    float: right;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navbar-links ul li {
+    display: inline;
+    padding: 10px 15px;
+}
+
+.navbar-links ul li a {
+    color: white;
+    text-decoration: none;
+    color: #000000;
+    font-family: chakra petch;
+    font-size: x-large;
+}
+
+.navbar-links ul li a:hover {
+    color: #ddd;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        height: auto;
+    }
+
+    .navbar-text {
+
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-links ul li {
+        margin: 5px 0;
+    }
 }
 
 
@@ -27,6 +101,16 @@
     height: 1000px;
 }
 
+.btnimage {
+    font-family: chakra petch !important;
+    height: 70px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #080808 !important;
+    background-color: #25BDC3 !important;
+}
+
 /* Media queries for forskellige størrelser*/
 @media (max-width: 1500px) {
     .responsive-image img {
@@ -35,5 +119,23 @@
     }
 }
 
+/* Underbilleder på Index siden*/
+
+.responsive-image {
+    max-width: 100%;
+    /* Ensures the image never exceeds the width of its container */
+    height: auto;
+    /* Maintains the aspect ratio */
+}
 
 
+/* Footer */
+
+.content {
+    flex: 1;
+}
+
+.footer {
+    flex-shrink: 0;
+    background-color: #009F4E;
+}
