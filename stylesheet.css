@@ -123,11 +123,61 @@ body {
 
 .responsive-image {
     max-width: 100%;
-    /* Ensures the image never exceeds the width of its container */
     height: auto;
-    /* Maintains the aspect ratio */
 }
 
+
+/* billede med quotes */
+
+.bg-image {
+    background-color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    line-height: 1.5;
+    padding: 20px; /* Add padding to create space around the text */
+    border: 4px solid white; /* Add outline around the text */
+    border-radius: 10px; /* Add border radius for rounded corners */
+  }
+
+  /* Media queries for smaller screens */
+  @media only screen and (max-width: 767px) {
+    .text {
+      font-size: 18px;
+    }
+  }
+
+  @media only screen and (max-width: 479px) {
+    .text {
+      font-size: 14px; /* Further adjust font size for even smaller screens */
+    }
+  }
 
 /* Footer */
 
