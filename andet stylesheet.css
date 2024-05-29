@@ -1,0 +1,52 @@
+
+/* INDEX SIDEN*/
+
+/* Navbar */
+
+.navbar.custom-bg {
+    background-color: #009F4E !important;
+}
+
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 20px;
+    padding: 10px 20px;
+    font-family: chakra petch;
+}
+
+.navbar-text {
+    text-align: center;
+    color: #25BDC3 !important;
+    font-family: chakra petch;
+    font-size: 35px;
+}
+
+/* Billede på forsiden */
+
+.container-fluid-image {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+/* Knappen i øverste billede */
+
+.custom-button {
+    font-family: chakra petch !important;
+    color: #080808 !important;
+}
+
+.custom-button {
+    font-family: chakra petch !important;
+    color: #080808 !important;
+}
+
+/* Footer */
+
+.custom-footer {
+    background-color: #009F4E !important;
+    color: #000000 !important;
+    font-family: chakra petch;
+    font-size: 20px;
+}

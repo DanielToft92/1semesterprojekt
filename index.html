@@ -26,76 +26,48 @@
 
 <body>
 
-    <!-- Navbaren -->
-
-    <header class="navbar navbar-expand-lg custom-bg">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg custom-bg">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img src="Billeder/Hjemmesidelogo.png" alt="Logo"
-                    style="max-width: 60px; height: auto; margin-left: -5px;">
-            </a>
-            <div class="navbar-center-text">
-                <h1 class="navbar-text text-center">Green-Tech</h1>
+            <div class="d-flex align-items-center">
+                <a class="navbar-brand" href="index.html">
+                    <img src="Billeder/Hjemmesidelogo.png" alt="Green-Tech Logo" style="max-width: 60px; height: auto;">
+                </a>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse ms-auto" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="linkstilbæredygtighed.html">Links til bæredygtighed</a>
+                        <a class="nav-link" href="avl.html">Links til bæredygtige løsninger</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="beskeder.html">Om os</a>
+                        <a class="nav-link" href="legeaftaler.html">Om os</a>
                     </li>
                 </ul>
             </div>
+            <div class="ml-auto">
+				<button class="btn btn-dark ml-auto" style="height: 38px;">
+					<span class="align-items-center">Sprog</span>
+				</button>
+			</div>
         </div>
-    </header>
+    </nav>
+    
+    
+    
 
     <!--Forside billede med knap som fører brugeren til "Links til bæredygtighed"-->
 
-    <div class="container-fluid-image">
-        <div class="row">
-            <div class="col text-center position-relative">
-                <img src="Billeder/Skærmbillede 2024-05-17 133955.jpg" class="img-fluid custom-img"
-                    alt="Responsive Image">
-                <div class="position-absolute start-50 translate-middle" style="bottom: 1%;">
-                    <button id="openModal" type="button" class="btn btn-warning btn-lg custom-button"
-                        data-bs-toggle="modal" data-bs-target="#myModal">Wanna go green?</button>
-                </div>
-            </div>
-        </div>
+    <div class="responsive-image">
+        <img src="Billeder/vecteezy_green-natural-eco-friendly-tree-and-computer-technology-on_29449781.jpg" class="img-fluid" alt="Responsive Image">
     </div>
-
 
     <!-- Underbillede med quotes omkring bæredygtig teknologi -->
 
-    <div class="row">
-        <div class="col position-relative p-0">
-            <img src="Billeder/vivid-green-leaf-studies-generated-aigraphy-photo.jpg" class="img-fluid custom-img"
-                alt="Responsive Image">
-            <div class="position-absolute start-0 end-0" style="top: 1%;">
-                <div class="container text-center text-white">
-                    <h3
-                        style="max-width: 100%; color: white; text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;">
-                        “Machines that fit the human environment, instead of forcing humans to enter theirs, will make
-                        using a computer as refreshing as taking a walk in the woods.”<span style="color: #EFE711;"> - Mark Weiser</span>
-                    </h3>
-                    <h3
-                        style="margin-top: 150px; color: white; text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;">
-                        “New Technology is not good or evil in hand of itself. It’s all about how people choose to use
-                        it”
-                        <span style="color: #EFE711;"> - David Wong</span></h3>
-                    <h3
-                        style="margin-top: 145px; color: white; text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;">
-                        “Environment is no one’s property to destroy; it’s everyone’s responsibility to protect”
-                        <span style="color: #EFE711;"> - Mohith Agadi</span></h3>
-                </div>
-            </div>
-        </div>
-    </div>
+
 
 
 
