@@ -6,11 +6,18 @@ body {
     margin: 0;
 }
 
+.bg-image {
+    background-image: url('Billeder/dark-dense-green-cloud-haze.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 /* Navbar */
 
 .navbar {
-    background-color: #009F4E;
+    background-image: url('Billeder/pexels-ben-mack-6775241.jpg');
     overflow: hidden;
 }
 
@@ -129,12 +136,6 @@ body {
 
 /* billede med quotes */
 
-.bg-image {
-    background-color: #ffffff;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
 .container {
     position: relative;
@@ -187,5 +188,5 @@ body {
 
 .footer {
     flex-shrink: 0;
-    background-color: #009F4E;
+    background-image: url('Billeder/pexels-ben-mack-6775241.jpg');
 }
