@@ -14,6 +14,7 @@ body {
     background-position: center;
 }
 
+/* INDEX Page */
 
 /* Navbar */
 
@@ -214,4 +215,30 @@ body {
 .footer {
     flex-shrink: 0;
     background-image: url('Billeder/pexels-ben-mack-6775241.jpg');
+}
+
+
+/* Bæredygtighed */
+
+.video-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap as needed */
+    margin-top: 50px; /* Adjust the margin as needed */
+}
+.video-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video-item figcaption {
+    margin-top: 10px;
+    text-align: center;
+}
+.video-item iframe {
+    width: 560px;
+    height: 315px;
+    max-width: 100%; /* Ensure responsiveness */
 }
