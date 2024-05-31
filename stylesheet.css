@@ -4,11 +4,11 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    background-image: url('Billeder/dark-dense-green-cloud-haze.jpg');
+    background-image: url('Billeder/baggrundsbillede1.jpg');
 }
 
 .bg-image {
-    background-image: url('Billeder/dark-dense-green-cloud-haze.jpg');
+    background-image: url('Billeder/baggrundsbillede1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -19,7 +19,7 @@ body {
 /* Navbar */
 
 .navbar {
-    background-image: url('Billeder/pexels-ben-mack-6775241.jpg');
+    background-image: url('Billeder\baggrundsbillede2.jpg');
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -145,6 +145,7 @@ body {
 }
 
 /* Media queries for forskellige størrelser*/
+
 @media (max-width: 1500px) {
     .responsive-image img {
         max-width: 100%;
@@ -160,7 +161,7 @@ body {
 }
 
 
-/* billede med quotes */
+/* billeder med quotes på forside */
 
 
 .container {
@@ -188,9 +189,9 @@ body {
     color: white;
     font-size: 24px;
     line-height: 1.5;
-    padding: 20px; /* Add padding to create space around the text */
-    border: 4px solid white; /* Add outline around the text */
-    border-radius: 10px; /* Add border radius for rounded corners */
+    padding: 20px;
+    border: 4px solid white;
+    border-radius: 10px;
   }
 
   /* Media queries for smaller screens */
@@ -202,7 +203,7 @@ body {
 
   @media only screen and (max-width: 479px) {
     .text {
-      font-size: 14px; /* Further adjust font size for even smaller screens */
+      font-size: 14px;
     }
   }
 
@@ -218,15 +219,17 @@ body {
 }
 
 
-/* Bæredygtighed */
+/* BÆREDYGTIGE LØSNINGER */
+
+/* Youtube videoer */
 
 .video-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px; /* Adjust the gap as needed */
-    margin-top: 50px; /* Adjust the margin as needed */
+    gap: 20px;
+    margin-top: 50px;
 }
 .video-item {
     display: flex;
@@ -240,5 +243,59 @@ body {
 .video-item iframe {
     width: 560px;
     height: 315px;
-    max-width: 100%; /* Ensure responsiveness */
+    max-width: 100%;
+}
+
+/* OM OS */
+
+/* OM OS Layout */
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 50%;
+}
+
+
+#company-overview {
+    padding: 20px;
+}
+
+#mission-statement {
+    padding: 20px;
+}
+
+#team {
+    padding: 20px;
+}
+
+#contact {
+    padding: 20px;
+
+}
+
+#omos-image {
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 20px;
+}
+
+#omos-image img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    main {
+        width: 100%;
+    }
+
 }
