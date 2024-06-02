@@ -1,8 +1,5 @@
-# Kickstarter
 
-Download projektet som ZIP-fil
+Green-Tech
 
-- Åben projektet og kør kommandoen "npm install" i terminalen
-- Kør "sass" kommandoen fra npm scripts.
-
-Du kan find npm scripts ved at dobbeltrykke på shift, på dit tastatur og søge. Alternativt kan du skrive "npm run sass" i terminalen
+Green-Tech er en hjemmeside omkring hvordan Techvirksomheder kan blive grønnere, ved at benytte sig at bæredygtige
+meterialer, til at producere deres komponenter.
