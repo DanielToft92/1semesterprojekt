@@ -140,13 +140,23 @@ body {
 }
 
 .btnimage {
-    font-family: chakra petch !important;
-    height: 70px;
-    width: 200px;
-    border-radius: 20px;
-    font-size: 20px;
-    color: #080808 !important;
-    background-color: #25BDC3 !important;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-primary {
+    background-color: #25BDC3;
+    color: rgb(0, 0, 0);
+}
+
+.btn-lg {
+    font-size: 1.25rem;
+    padding: 10px 20px;
 }
 
 /* Media queries for forskellige størrelser*/
@@ -263,6 +273,10 @@ body {
     width: 560px;
     height: 315px;
     max-width: 100%;
+}
+
+iframe {
+    border: none;
 }
 
 /* OM OS SIDEN */
